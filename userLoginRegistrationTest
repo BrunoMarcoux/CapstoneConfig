@@ -1,0 +1,16 @@
+server.port=8090
+spring.application.name=userLoginRegistration
+#Add properties for making connection to database
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:userLoginRegistrationDB
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#Documentation
+springdoc.swagger-ui.path=/apiDocumentation
+#JWT
+jwt.secret= secret
+app.jwttoken.message= Login Successful
+app.admin.email=admin@mail.com
+app.admin.password=password
+app.seeddata.logMessage=Loaded users...
